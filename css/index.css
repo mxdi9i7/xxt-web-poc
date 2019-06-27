@@ -1,0 +1,43 @@
+#list {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#list li {
+  list-style: none;
+}
+#list a {
+  text-decoration: none;
+  color: #000;
+}
+
+#list .category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+}
+
+#list .category .icon {
+  height: 40px;
+  width: 40px;
+}
+
+#list .category .icon img {
+  height: 100%;
+  width: 100%;
+}
+
+#list .category .title h3 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Microsoft Yahei", sans-serif;
+}
