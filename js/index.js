@@ -35,4 +35,4 @@ function loadCategories() {
   xhttp.send();
 }
 
-loadCategories();
+// loadCategories();
